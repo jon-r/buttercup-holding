@@ -65,7 +65,7 @@ hr {
 }
 
 .slides div {
-  background-position: center;
+  background-position: bottom right;
   background-size: cover;
   transition: opacity 1.5s;
   opacity: 0;
