@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="img/horse-head.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="lib/bulma.css">
+  <link rel="stylesheet" href="lib/style.css">
+</head>
+<body>
+  <section class="hero is-large ">
+
+    <div id="js_gallery" class="slides is-overlay" >
+      <div class="is-overlay is-active" style="background-image:url(img/buttercup_stables_riding_01.jpg)" ></div>
+      <div class="is-overlay" style="background-image:url(img/buttercup_stables_garden_01.jpg)" ></div>
+    </div>
+
+    <div class="hero-body">
+
+      <header class="container">
+        <figure class="image is-96x96">
+          <img src="img/horse-head.png" />
+        </figure>
+
+        <div class="title-content">
+
+          <h1 class="title">
+            Buttercup Stables
+          </h1>
+          <h2 class="subtitle">
+            Horse Riding &amp; Country Breaks
+          </h2>
+        </div>
+        <hr>
+        <div class="content is-large" >
+          <p>
+            For relaxing weekend breaks in our holiday home &amp; horse riding around the beautiful Cheshire countryside.
+          </p>
+          <p>
+            <a href="mailto:buttercupstables99@gmail.com">buttercupstables99@gmail.com</a>
+            |
+            <a href="tel:07969 037361" >07969 037361</a>
+          </p>
+        </div>
+
+      </header>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title">Open all year round! All skill levels welcome!</h2>
+      <hr>
+
+
+      <div class="columns content" >
+        <div class="column is-half" >
+          <p>
+           We are a small family run riding establishment. We offer some of the most beautiful and picturesque rides around Cheshire. Exploring the fantastic Beeston and Peckforton castle grounds and the Bickerton Hills, venturing onto the the sandstone trail with all their splendid views. We ride along the Bishop Bennetts way and many more of the famous Cheshire bridal paths.
+          </p><p>
+          We offer a 1,2 or 3 hour rides daily or even the mini break, two days of riding plus an overnight stay in our private, self-catering accommodation with a private garden, it is the perfect way too get away from it all.
+          </p><p>
+          Ideal for walkers too, as it is ideally located close to many great walks and trails on foot or why not even bring your bike? We are closely situated to some wonderful attractions, such as the famous Cheshire Ice-cream farm, the candle workshop and the Pheasant Inn, making it an ideal location for a getaway.
+          </p>
+        </div>
+        <div class="column is-half" >
+          <p>
+          Horse Riding Adventures start from as little as £15/hour per person.
+          </p><p>
+          Weekend Breaks from £150/hour per person.
+          </p><p>
+          e: <a href="mailto:buttercupstables99@gmail.com">buttercupstables99@gmail.com</a><br>
+          t: <a href="tel:07969 037361" >07969 037361</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--  <script type="text/javascript" src="lib/script.js"></script>-->
+  <script type="text/javascript" >
+    var a="riding_02 view_01 riding_03 view_02 riding_04 weekend_break_01 riding_05".split(" "),b=a.length,c=document.getElementById("js_gallery"),f=c.children,g=f.length,h=0,k=!1;
+function l(){window.setTimeout(function(){h==b?(h=0,k=!0):h++;var d=h;if(!k&&d<b){var e=document.createElement("div");e.style.backgroundImage="url(img/buttercup_stables_"+a[d]+".jpg)";e.className="is-overlay";c.appendChild(e);g++;console.log(g)}for(i=0;i<g;i++)i==d?f[i].classList.add("is-active"):f[i].classList.remove("is-active");l()},7E3)}l();
+  </script>
+</body>
+</html>
