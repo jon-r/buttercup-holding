@@ -16,7 +16,7 @@ hr {
 }
 
 .image {
-  margin-right: 20px;
+  vertical-align: middle;
 }
 
 .title, .subtitle {
@@ -24,17 +24,23 @@ hr {
   color:inherit;
 }
 
+  @media screen and (max-width: 768px) {
+    .title, .subtitle {
+      text-shadow: 0 0 5px #001f0e;
+    }
+  }
+
 .hero {
   position: relative;
   background-color: transparent;
 }
 
-.hero .title {
+/*.hero .title {
   font-size: 48px;
 }
 .hero .subtitle {
-  font-size: 32px;
-}
+  font-size: 24px;
+}*/
 
 
 .section {
