@@ -30,14 +30,12 @@ hr {
 }
 
 .hero .title {
-  font-size: 64px;
+  font-size: 48px;
 }
 .hero .subtitle {
-  font-size: 40px;
+  font-size: 32px;
 }
-.hero .content {
-  max-width: 750px;
-}
+
 
 .section {
   background-color: inherit;
@@ -61,11 +59,12 @@ hr {
   bottom:0;
   left:0;
   right:0;
-  background: url(../img/plus.png);
+  width: calc(100% /3 + 20px);
+  background-color: rgba(0, 31, 14, 0.75);
 }
 
 .slides div {
-  background-position: bottom right;
+  background-position: center;
   background-size: cover;
   transition: opacity 1.5s;
   opacity: 0;
